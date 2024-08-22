@@ -1,0 +1,257 @@
+"'UG 2' As screen":
+    Fill: =RGBA(50, 86, 160, 1)
+
+    Label8_15 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Size: =25
+        Text: ="Tamil"
+        Width: =117
+        X: =57
+        Y: =531
+        ZIndex: =1
+
+    TextInput2_6 As text:
+        Align: =Align.Center
+        BorderColor: =RGBA(50, 86, 160, 1)
+        Clear: =true
+        Default: =
+        Format: =TextFormat.Number
+        Height: =60
+        Size: =25
+        Width: =153
+        X: =39
+        Y: =601
+        ZIndex: =2
+
+    TextInput2_7 As text:
+        Align: =Align.Center
+        BorderColor: =RGBA(50, 86, 160, 1)
+        Clear: =true
+        Default: =
+        Format: =TextFormat.Number
+        Height: =60
+        Size: =25
+        Width: =170
+        X: =233
+        Y: =601
+        ZIndex: =3
+
+    Label8_16 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =63
+        Size: =25
+        Text: ="English"
+        Width: =173
+        X: =250
+        Y: =538
+        ZIndex: =4
+
+    Label8_17 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Size: =25
+        Text: ="Maths"
+        Width: =140
+        X: =444
+        Y: =531
+        ZIndex: =5
+
+    TextInput2_8 As text:
+        Align: =Align.Center
+        BorderColor: =RGBA(50, 86, 160, 1)
+        Clear: =true
+        Default: =
+        Format: =TextFormat.Number
+        Height: =60
+        Size: =25
+        Width: =166
+        X: =433
+        Y: =601
+        ZIndex: =6
+
+    Label8_18 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Size: =25
+        Text: ="Biology"
+        Width: =140
+        X: =460
+        Y: =677
+        ZIndex: =7
+
+    Label8_19 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Size: =25
+        Text: ="Chemistry"
+        Width: =190
+        X: =229
+        Y: =677
+        ZIndex: =8
+
+    Label8_20 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Size: =25
+        Text: ="Physics"
+        Width: =140
+        X: =45
+        Y: =677
+        ZIndex: =9
+
+    TextInput2_9 As text:
+        Align: =Align.Center
+        BorderColor: =RGBA(50, 86, 160, 1)
+        Clear: =true
+        Default: =
+        Format: =TextFormat.Number
+        Height: =60
+        Size: =25
+        Width: =153
+        X: =49
+        Y: =747
+        ZIndex: =10
+
+    TextInput2_10 As text:
+        Align: =Align.Center
+        BorderColor: =RGBA(50, 86, 160, 1)
+        Clear: =true
+        Default: =
+        Format: =TextFormat.Number
+        Height: =60
+        Size: =25
+        Width: =153
+        X: =234
+        Y: =747
+        ZIndex: =11
+
+    TextInput2_11 As text:
+        Align: =Align.Center
+        BorderColor: =RGBA(50, 86, 160, 1)
+        Clear: =true
+        Default: =
+        Format: =TextFormat.Number
+        Height: =60
+        Size: =25
+        Width: =153
+        X: =430
+        Y: =747
+        ZIndex: =12
+
+    Label7_2 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =30
+        Text: ="Student Basic Details"
+        Underline: =true
+        Width: =560
+        X: =40
+        Y: =17
+        ZIndex: =13
+
+    Label8_8 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Size: =25
+        Text: ="HSC Registration Number"
+        Width: =560
+        X: =50
+        Y: =243
+        ZIndex: =14
+
+    TextInput4 As text:
+        Clear: =true
+        Default: =
+        EnableSpellCheck: =true
+        Format: =TextFormat.Number
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =45
+        Y: =313
+        ZIndex: =15
+
+    Label8_9 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Size: =25
+        Text: ="12th Total Marks"
+        Width: =316
+        X: =50
+        Y: =382
+        ZIndex: =16
+
+    TextInput4_1 As text:
+        Default: =
+        Format: =TextFormat.Number
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =48
+        Y: =452
+        ZIndex: =17
+
+    Label8_10 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Size: =25
+        Text: ="Medium of Studied in 12th"
+        Width: =560
+        X: =53
+        Y: =93
+        ZIndex: =18
+
+    Dropdown1_3 As dropdown:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        ChevronBackground: =RGBA(50, 86, 160, 1)
+        ChevronDisabledBackground: =RGBA(50, 86, 160, 1)
+        Default: =
+        Height: =70
+        HoverFill: =RGBA(255, 255, 255, 1)
+        Items: =["--Select--","Tamil","English","Others"]
+        SelectionFill: =RGBA(50, 86, 160, 1)
+        Size: =25
+        Tooltip: ="Quota"
+        Width: =575
+        X: =48
+        Y: =164
+        ZIndex: =19
+
+    Button1_1 As button:
+        Color: =RGBA(50, 86, 160, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =73
+        OnSelect: =Navigate('UG Payment')
+        Size: =24
+        Text: ="Click to Confirm the Admission "
+        Underline: =true
+        Width: =559
+        X: =40
+        Y: =1015
+        ZIndex: =20
+
+    Label8_11 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Size: =25
+        Text: ="Engineering Cut-Off"
+        Width: =316
+        X: =53
+        Y: =810
+        ZIndex: =21
+
+    TextInput4_2 As text:
+        Clear: =true
+        Default: =
+        EnableSpellCheck: =true
+        Format: =TextFormat.Number
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =48
+        Y: =894
+        ZIndex: =22
+

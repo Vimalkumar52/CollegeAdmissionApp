@@ -1,0 +1,20 @@
+{
+  "4b793de5-116b-41f7-9a74-5e4652e55854": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Outlook.com",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1702/1.0.1702.3810/outlook/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_outlook",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Outlook.com"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "4b793de5-116b-41f7-9a74-5e4652e55854"
+  }
+}

@@ -1,0 +1,190 @@
+"'UG 1' As screen":
+    Fill: =RGBA(50, 86, 160, 1)
+
+    Label7_1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =30
+        Text: ="Student Basic Details"
+        Underline: =true
+        Width: =560
+        X: =40
+        Y: =17
+        ZIndex: =1
+
+    Label8_5 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Size: =25
+        Text: ="Referral"
+        Width: =560
+        X: =50
+        Y: =107
+        ZIndex: =2
+
+    Label8_6 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Size: =25
+        Text: ="Course Offered"
+        Width: =560
+        X: =50
+        Y: =358
+        ZIndex: =4
+
+    Checkbox1 As checkbox:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =85
+        Size: =21
+        Text: ="Direct"
+        Width: =280
+        X: =50
+        Y: =171
+        ZIndex: =5
+
+    Checkbox1_1 As checkbox:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =85
+        Size: =21
+        Text: ="Faculty"
+        Width: =280
+        X: =216
+        Y: =171
+        ZIndex: =6
+
+    Checkbox1_2 As checkbox:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =85
+        Size: =21
+        Text: ="Consultant"
+        Width: =230
+        X: =395
+        Y: =166
+        ZIndex: =7
+
+    Checkbox1_3 As checkbox:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =85
+        Size: =21
+        Text: ="Student"
+        Width: =191
+        X: =50
+        Y: =256
+        ZIndex: =8
+
+    Checkbox1_4 As checkbox:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =85
+        Size: =21
+        Text: ="Others"
+        Width: =230
+        X: =233
+        Y: =251
+        ZIndex: =9
+
+    Dropdown1 As dropdown:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        ChevronBackground: =RGBA(50, 86, 160, 1)
+        ChevronDisabledBackground: =RGBA(50, 86, 160, 1)
+        ChevronFill: =RGBA(0, 0, 0, 1)
+        Height: =70
+        HoverFill: =RGBA(255, 255, 255, 1)
+        Items: =["--Select--","B.Tech-Artificial Intelligence & Data Science","B.Tech-Information Technology","B.Tech-Agricultural Engineering","B.E-Computer Science & Engineering(Cyber Security)","B.E-Computer Science & Engineering","B.E-Biomedical Engineering","B.E-Electronics & Communication Engineering","B.E-Mechanical Engineering"]
+        SelectionColor: =RGBA(0, 0, 0, 1)
+        SelectionFill: =RGBA(50, 86, 160, 1)
+        Size: =25
+        Tooltip: ="Quota"
+        Width: =575
+        X: =50
+        Y: =440
+        ZIndex: =11
+
+    Label8_7 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Size: =25
+        Text: ="Higher Secondary Education"
+        Width: =560
+        X: =50
+        Y: =528
+        ZIndex: =12
+
+    Dropdown1_1 As dropdown:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        ChevronBackground: =RGBA(50, 86, 160, 1)
+        ChevronDisabledBackground: =RGBA(50, 86, 160, 1)
+        Default: =
+        Height: =70
+        HoverFill: =RGBA(255, 255, 255, 1)
+        Items: =["--Select--","TN-State Board","CBSE","Others"]
+        SelectionFill: =RGBA(50, 86, 160, 1)
+        Size: =25
+        Tooltip: ="Quota"
+        Width: =575
+        X: =50
+        Y: =598
+        ZIndex: =13
+
+    Label8_14 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Size: =25
+        Text: ="Name of the School Studied in 12th"
+        Width: =560
+        X: =50
+        Y: =696
+        ZIndex: =27
+
+    TextInput3 As text:
+        Default: =
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =50
+        Y: =766
+        ZIndex: =28
+
+    Label8_21 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Size: =25
+        Text: ="State"
+        Width: =560
+        X: =50
+        Y: =852
+        ZIndex: =29
+
+    Dropdown1_2 As dropdown:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        ChevronBackground: =RGBA(50, 86, 160, 1)
+        ChevronDisabledBackground: =RGBA(50, 86, 160, 1)
+        Default: =
+        Height: =70
+        HoverFill: =RGBA(255, 255, 255, 1)
+        Items: =["--Select--", "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh", "Goa", "Gujarat", "Haryana", "Himachal Pradesh", "Jammu and Kashmir", "Jharkhand", "Karnataka", "Kerala", "Madhya Pradesh", "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "Odisha", "Punjab", "Rajasthan","Sikkim","Tamil Nadu","Telangana","Tripura","Uttar Pradesh","Uttarakhand","West Bengal"]
+        SelectionFill: =RGBA(50, 86, 160, 1)
+        Size: =25
+        Tooltip: ="Quota"
+        Width: =575
+        X: =50
+        Y: =922
+        ZIndex: =30
+
+    Icon1_1 As icon.NextArrow:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.NextArrow
+        OnSelect: =Navigate('UG 2')
+        X: =536
+        Y: =1043
+        ZIndex: =31
+
+    Icon2_1 As icon.BackArrow:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(Admission)
+        X: =26
+        Y: =1043
+        ZIndex: =32
+

@@ -1,0 +1,217 @@
+UG As screen:
+    Fill: =RGBA(50, 86, 160, 1)
+
+    Label7 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =30
+        Text: ="Student Basic Details"
+        Underline: =true
+        Width: =560
+        X: =40
+        ZIndex: =1
+
+    TextInput1 As text:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        BorderThickness: =0
+        Clear: =true
+        Default: =
+        EnableSpellCheck: =true
+        Height: =66
+        HoverBorderColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =45
+        RadiusBottomRight: =45
+        RadiusTopLeft: =45
+        RadiusTopRight: =45
+        Size: =25
+        Width: =523
+        X: =60
+        Y: =126
+        ZIndex: =2
+
+    Label8 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Size: =25
+        Text: ="Name"
+        Width: =560
+        X: =60
+        Y: =56
+        ZIndex: =4
+
+    Label9 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Size: =25
+        Text: ="Gender"
+        Width: =560
+        X: =60
+        Y: =192
+        ZIndex: =5
+
+    Label9_1 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Size: =25
+        Text: ="Date Of Birth"
+        Width: =560
+        X: =60
+        Y: =317
+        ZIndex: =7
+
+    Label8_1 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Size: =25
+        Text: ="Mobile No"
+        Width: =560
+        X: =60
+        Y: =453
+        ZIndex: =9
+
+    TextInput1_3 As text:
+        Clear: =true
+        Default: =
+        EnableSpellCheck: =true
+        Format: =TextFormat.Number
+        Height: =66
+        HoverFill: =RGBA(255, 255, 255, 1)
+        MaxLength: =10
+        RadiusBottomLeft: =45
+        RadiusBottomRight: =45
+        RadiusTopLeft: =45
+        RadiusTopRight: =45
+        Size: =25
+        Width: =523
+        X: =60
+        Y: =523
+        ZIndex: =10
+
+    Label8_2 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Size: =25
+        Text: ="Father's Name"
+        Width: =560
+        X: =60
+        Y: =589
+        ZIndex: =11
+
+    Icon1 As icon.NextArrow:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.NextArrow
+        OnSelect: =Navigate('UG 1')
+        X: =536
+        Y: =1043
+        ZIndex: =13
+
+    Icon2 As icon.BackArrow:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(Admission)
+        X: =26
+        Y: =1043
+        ZIndex: =14
+
+    DatePicker1 As datepicker:
+        BorderColor: =RGBA(50, 86, 160, 1)
+        BorderThickness: =0
+        Height: =70
+        Size: =24
+        Width: =575
+        X: =60
+        Y: =383
+        ZIndex: =17
+
+    Label8_3 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Size: =25
+        Text: ="Mother's Name"
+        Width: =560
+        X: =60
+        Y: =725
+        ZIndex: =18
+
+    TextInput1_1 As text:
+        BorderColor: =RGBA(50, 86, 160, 1)
+        BorderThickness: =0
+        Clear: =true
+        Default: =
+        EnableSpellCheck: =true
+        Height: =66
+        HoverBorderColor: =RGBA(50, 86, 160, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =45
+        RadiusBottomRight: =45
+        RadiusTopLeft: =45
+        RadiusTopRight: =45
+        Size: =25
+        Width: =523
+        X: =60
+        Y: =659
+        ZIndex: =19
+
+    TextInput1_2 As text:
+        BorderColor: =RGBA(50, 86, 160, 1)
+        BorderThickness: =0
+        Clear: =true
+        Default: =
+        EnableSpellCheck: =true
+        Height: =66
+        HoverBorderColor: =RGBA(50, 86, 160, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =45
+        RadiusBottomRight: =45
+        RadiusTopLeft: =45
+        RadiusTopRight: =45
+        Size: =25
+        Width: =523
+        X: =60
+        Y: =795
+        ZIndex: =20
+
+    Label8_4 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Size: =25
+        Text: ="Address"
+        Width: =560
+        X: =60
+        Y: =849
+        ZIndex: =21
+
+    TextInput1_4 As text:
+        BorderColor: =RGBA(50, 86, 160, 1)
+        BorderThickness: =0
+        Clear: =true
+        Default: =
+        EnableSpellCheck: =true
+        Height: =112
+        HoverBorderColor: =RGBA(50, 86, 160, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =45
+        RadiusBottomRight: =45
+        RadiusTopLeft: =45
+        RadiusTopRight: =45
+        Size: =25
+        Width: =523
+        X: =60
+        Y: =919
+        ZIndex: =22
+
+    Radio1 As radio:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =107
+        Items: =["Male","Female"]
+        Layout: =Layout.Horizontal
+        Size: =25
+        TabIndex: =1
+        Width: =510
+        X: =90
+        Y: =234
+        ZIndex: =23
+

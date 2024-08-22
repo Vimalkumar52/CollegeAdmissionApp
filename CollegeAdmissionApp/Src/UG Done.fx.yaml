@@ -1,0 +1,38 @@
+"'UG Done' As screen":
+    Fill: =RGBA(255, 255, 255, 1)
+
+    Image7 As image:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        BorderStyle: =BorderStyle.None
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Height: =320
+        Image: =done
+        Width: =466
+        X: =74
+        Y: =104
+        ZIndex: =1
+
+    Label10 As label:
+        Align: =Align.Center
+        Color: =RGBA(0, 134, 208, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =136
+        Size: =30
+        Text: ="Your Registeration Has been Successfully Confirmed..!!"
+        Width: =560
+        X: =34
+        Y: =516
+        ZIndex: =2
+
+    Label14 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Height: =200
+        Size: =30
+        Text: ="Admission confirmation code will be sent you by SMS"
+        Width: =560
+        X: =34
+        Y: =835
+        ZIndex: =3
+
